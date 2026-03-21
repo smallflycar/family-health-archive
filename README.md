@@ -1,5 +1,11 @@
 # family-health-archive
 
+![family-health-archive cover](assets/cover.svg)
+
+[![License: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0--or--later-1f6f5f.svg)](LICENSE)
+[![OpenClaw Skills](https://img.shields.io/badge/OpenClaw-2%20skills-2f8f6b.svg)](skills/README.md)
+[![Local First](https://img.shields.io/badge/Local-First-e8f5ef.svg)](#项目定位)
+
 面向 OpenClaw skill 生态的本地优先家庭健康档案项目。
 
 这个仓库的目标不是做一个在线医疗平台，而是提供两组开箱可用的 skill，让用户把家庭成员的医疗资料安全地归档到本地 SQLite + 文件目录中，并在后续查询、总结、趋势分析时始终优先使用本地档案。
