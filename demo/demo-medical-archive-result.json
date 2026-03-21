@@ -1,0 +1,48 @@
+{
+  "schema_version": "medical-archive-result/v1",
+  "flow": "image_report",
+  "person_match": {
+    "status": "needs_profile_creation",
+    "extracted_patient_name": "成员A"
+  },
+  "source_file": "/absolute/path/to/lipid-report.png",
+  "medical_file_gate": {
+    "decision": "accepted_medical_file",
+    "source_kind": "image",
+    "mime_type": "image/png",
+    "reason_code": "complete_clear_medical_report",
+    "confidence_label": "high"
+  },
+  "document": {
+    "title": "血脂检验报告",
+    "occurred_on": "2026-03-18"
+  },
+  "observations": [
+    {
+      "report_type": "lipid panel",
+      "title": "血脂检验",
+      "observed_on": "2026-03-18",
+      "patient_name": "成员A",
+      "patient_sex": "女",
+      "patient_age_text": "68岁",
+      "hospital_name": "示例医院",
+      "department_name": "检验科",
+      "items": [
+        {
+          "name": "低密度脂蛋白胆固醇",
+          "value": "4.12",
+          "unit": "mmol/L",
+          "reference_range": "0-3.40",
+          "flag": "↑"
+        },
+        {
+          "name": "总胆固醇",
+          "value": "5.90",
+          "unit": "mmol/L",
+          "reference_range": "0-5.20",
+          "flag": "↑"
+        }
+      ]
+    }
+  ]
+}

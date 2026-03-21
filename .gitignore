@@ -1,0 +1,12 @@
+# local archive / exports
+health-archive/
+out/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.test-tmp/
+
+# OS
+.DS_Store

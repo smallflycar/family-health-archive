@@ -1,0 +1,30 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#F5FAF7"/>
+  <rect x="56" y="56" width="1168" height="528" rx="32" fill="url(#bg)" stroke="#D5E8DD"/>
+  <circle cx="1100" cy="134" r="94" fill="#E3F2EA"/>
+  <circle cx="1018" cy="512" r="132" fill="#EEF7F2"/>
+  <circle cx="184" cy="142" r="72" fill="#EAF5EF"/>
+  <rect x="108" y="138" width="132" height="132" rx="28" fill="#2F8F6B"/>
+  <path d="M152 204H196" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  <path d="M174 182L174 226" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  <path d="M292 187C292 171.536 304.536 159 320 159H542C557.464 159 570 171.536 570 187V221C570 236.464 557.464 249 542 249H320C304.536 249 292 236.464 292 221V187Z" fill="#DDF2E8"/>
+  <text x="320" y="206" fill="#2F8F6B" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700">OpenClaw Skills</text>
+  <text x="108" y="346" fill="#163127" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="64" font-weight="700">family-health-archive</text>
+  <text x="110" y="398" fill="#496257" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="28">本地优先的家庭健康档案项目</text>
+  <text x="110" y="444" fill="#496257" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="24">基于 OpenClaw skills · SQLite + files · 中文医疗归档与查询</text>
+  <rect x="108" y="484" width="262" height="54" rx="27" fill="#FFFFFF" stroke="#D5E8DD"/>
+  <text x="138" y="518" fill="#2F8F6B" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700">manager + assistant</text>
+  <rect x="844" y="202" width="274" height="180" rx="24" fill="#FFFFFF" stroke="#D5E8DD"/>
+  <text x="878" y="248" fill="#163127" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700">共享本地档案</text>
+  <text x="878" y="288" fill="#496257" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="20">archive.db</text>
+  <text x="878" y="324" fill="#496257" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="20">files/</text>
+  <text x="878" y="360" fill="#496257" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="20">不依赖常驻服务</text>
+  <rect x="760" y="420" width="358" height="92" rx="24" fill="#2F8F6B"/>
+  <text x="796" y="471" fill="white" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700">准确性优先 · 文件优先</text>
+  <defs>
+    <linearGradient id="bg" x1="640" y1="56" x2="640" y2="584" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FBF8"/>
+    </linearGradient>
+  </defs>
+</svg>
