@@ -2,8 +2,8 @@
 name: health-archive-manager
 displayName: 家庭健康归档
 description: 将家庭医疗文件归档到共享的本地健康档案。
-version: 1.0.1
-tags: 医疗, 健康档案, 家庭, 归档, 本地优先
+version: 1.0.2
+tags: medical, health-archive, family, archive, local-first
 ---
 
 # 家庭健康归档

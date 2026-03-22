@@ -44,7 +44,12 @@ Entry:
 
 Recommended:
 
-- install from a skill platform
+- install from OpenClaw Marketplace
+
+```bash
+openclawmp install skill/@u-125676116d464ddab6ab/health-archive-manager
+openclawmp install skill/@u-125676116d464ddab6ab/health-archive-assistant
+```
 
 Fallback:
 
