@@ -26,12 +26,12 @@ description: Chinese-first OpenClaw skill for reading a shared local family heal
 
 ## 前置依赖
 
-这个 skill 依赖共享档案已经存在。
+这个 skill 读取共享档案，推荐与 `health-archive-manager` 一起安装。
 
 如果本地还没有初始化的档案目录或 `archive.db`：
 
 - 不要假装有档案数据
-- 应提示用户先安装或先使用 `health-archive-manager`
+- 应提示用户安装并使用 `health-archive-manager` 初始化档案
 
 ## 读取原则
 
@@ -164,8 +164,9 @@ description: Chinese-first OpenClaw skill for reading a shared local family heal
 - 不把 `observations` 当成一项指标一行
 - 不依赖封闭的 `report_type` 枚举
 
-## 与第一个 Skill 的关系
+## 安装与协作
 
-这个 skill 不负责创建数据库或写入归档。
-
-它建立在 `health-archive-manager` 已经创建好的共享档案之上。
+- 本 skill 负责读取、分析和展示
+- `health-archive-manager` 负责初始化档案并写入数据
+- 两个 skill 共享同一个本地数据目录
+- 如果用户只安装了本 skill 且本地档案尚未初始化，应明确提示补装并先使用 `health-archive-manager`

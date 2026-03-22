@@ -197,10 +197,9 @@ description: Chinese-first OpenClaw skill for archiving family medical files int
 - `process-medical-archive-result`
 - `import-medical-archive-result`
 
-## 与第二个 Skill 的关系
+## 安装与协作
 
-本 skill 负责创建和维护共享档案。
-
-`health-archive-assistant` 依赖同一个数据目录读取档案。
-
-如果用户只安装了 assistant 而本地档案还不存在，assistant 应提示先使用本 skill 初始化档案。
+- 本 skill 负责初始化档案并写入数据
+- `health-archive-assistant` 负责读取、分析和展示
+- 两个 skill 共享同一个本地数据目录
+- 如果用户只安装了读取侧 skill 且本地档案尚未初始化，应提示补装并先使用本 skill

@@ -22,3 +22,8 @@
 
 1. 先安装 `health-archive-manager`
 2. 再安装 `health-archive-assistant`
+
+两个 skill 可以分别安装，但推荐同时安装。
+
+- 只安装 `health-archive-manager`：可以建档和归档
+- 只安装 `health-archive-assistant`：如果本地档案尚未初始化，应提示补装 `health-archive-manager`
