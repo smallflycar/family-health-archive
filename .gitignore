@@ -8,5 +8,10 @@ __pycache__/
 .venv/
 .test-tmp/
 
+# local design / verification files, not for public distribution
+PROJECT-DESIGN.md
+demo/
+tests/
+
 # OS
 .DS_Store

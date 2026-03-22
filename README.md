@@ -75,10 +75,7 @@ Platform-specific install commands can be listed here when the skills are publis
 │  │  └─ SKILL.md
 │  └─ health-archive-assistant/
 │     └─ SKILL.md
-├─ demo/
-├─ tests/
-├─ PROJECT-DESIGN.md
-├─ HANDOFF.md
+├─ assets/
 └─ DISCLAIMER.md
 ```
 
@@ -121,8 +118,6 @@ Implemented:
 ## References
 
 - `skills/README.md`
-- `PROJECT-DESIGN.md`
-- `HANDOFF.md`
 - `skills/health-archive-manager/references/schema.md`
 - `skills/health-archive-manager/references/medical-archive-result.md`
 - `skills/health-archive-manager/references/model-output-guidelines.md`
