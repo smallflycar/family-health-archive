@@ -1,6 +1,6 @@
 ---
 name: health-archive-assistant
-description: Chinese-first OpenClaw skill for reading a shared local family health archive and generating analysis, summaries, and chart data.
+description: 读取共享的本地健康档案，并生成分析、总结和图表数据。
 ---
 
 # Health Archive Assistant

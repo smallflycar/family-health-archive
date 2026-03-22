@@ -1,6 +1,6 @@
 ---
 name: health-archive-manager
-description: Chinese-first OpenClaw skill for archiving family medical files into a shared local SQLite health archive.
+description: 将家庭医疗文件归档到共享的本地健康档案。
 ---
 
 # Health Archive Manager
