@@ -74,76 +74,22 @@ Each item may contain:
 
 ## Recommended first templates
 
-### 1. Lipids
-
-Default:
-- `chart_type` = `single_metric_trend_line`
-- primary metric = `ldl_c`
-- latest other lipids go into `latest_supporting_facts`
-
-### 2. Glucose
+### 1. Glucose
 
 Default:
 - `chart_type` = `single_metric_trend_line`
 - primary metric = `hba1c` when available, otherwise fasting glucose
 
-### 3. Blood pressure
+### 2. Blood pressure
 
 Default:
 - `chart_type` = `dual_metric_trend_line`
 - two series only: systolic + diastolic
 
-### 4. Weight
+### 3. Weight
 
 Default:
 - `chart_type` = `single_metric_trend_line`
-
-## Example: explanation-first lipid chart
-
-```json
-{
-  "schema_version": "chart-spec/v1",
-  "chart_type": "single_metric_trend_line",
-  "title": "低密度脂蛋白胆固醇趋势",
-  "subtitle": "更适合观察血脂风险变化",
-  "series": [
-    {
-      "metric_key": "ldl_c",
-      "label": "低密度脂蛋白胆固醇",
-      "unit": "mmol/L",
-      "points": [
-        {
-          "date": "2026-03-01",
-          "value": 3.8,
-          "label": "3.80"
-        },
-        {
-          "date": "2026-03-18",
-          "value": 4.12,
-          "label": "4.12"
-        }
-      ]
-    }
-  ],
-  "reference_bands": [
-    {
-      "label": "建议上限",
-      "upper": 3.4,
-      "color_token": "range_caution"
-    }
-  ],
-  "latest_supporting_facts": [
-    {
-      "label": "最近一次总胆固醇",
-      "value_text": "5.90 mmol/L"
-    },
-    {
-      "label": "最近一次甘油三酯",
-      "value_text": "1.80 mmol/L"
-    }
-  ]
-}
-```
 
 ## Selection rule
 

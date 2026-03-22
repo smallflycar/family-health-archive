@@ -1,6 +1,6 @@
 ---
 name: health-archive-assistant
-description: 读取共享的本地家庭健康档案，生成时间线、总结、分析结果和图表数据。适用于查询某位家庭成员的历史报告、趋势、病史上下文、复诊准备和档案驱动的健康问答。
+description: Chinese-first OpenClaw skill for reading a shared local family health archive and generating analysis, summaries, and chart data.
 ---
 
 # Health Archive Assistant
@@ -118,7 +118,7 @@ description: 读取共享的本地家庭健康档案，生成时间线、总结�
 - 中文优先
 - 解释型优先
 - 一张图默认只表达一个关键点
-- 血脂默认不要直接画“四项混在一起”的折线图
+- 默认避免拥挤的多序列图表
 - 图只负责展示，解释由对话中的模型完成
 
 ## 回答护栏

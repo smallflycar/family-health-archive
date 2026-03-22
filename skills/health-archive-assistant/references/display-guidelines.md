@@ -13,14 +13,13 @@ Goal:
 - explanation-first, not metric-first
 - one visual should focus on one key health topic
 - one chart should usually focus on one key metric
-- avoid dumping four unfamiliar lab lines into one crowded chart
+- avoid crowded multi-series charts by default
 - plain-language takeaway should live in the model response, not inside the chart itself
 - do not mimic hospital report layouts
 - do not pretend to diagnose
 
 ## What to avoid
 
-- no "血脂四项全量折线图" as the default chart
 - no dense legend-heavy multi-line charts unless the user explicitly asks
 - no unexplained abbreviations as the primary label
 - no purple/dark-dashboard style
@@ -90,30 +89,13 @@ For most questions, the output should follow this order:
 3. supporting recent values
 4. source-backed note
 
-## Lipid example rule
+## Multi-metric selection rule
 
-When the user asks about blood lipids:
-- do not default to one chart containing TC / LDL-C / HDL-C / TG together
-- choose one primary metric that best represents the concern
-- in v1, prefer `LDL-C` as the default main chart when available
-- show the latest other lipid values as supporting text, not as equal-weight lines
-
-Recommended output:
-- title: `低密度脂蛋白胆固醇趋势`
-- subtitle: `更适合观察血脂风险变化`
-- chart: one line only
-- supporting facts: latest total cholesterol / triglycerides / HDL-C
-
-## Blood pressure example rule
-
-Blood pressure is one of the few cases where a two-series chart is acceptable:
-- systolic
-- diastolic
-
-But still keep:
-- simple labels
-- range guidance
-- plain-language explanation below
+When several related metrics exist in one domain:
+- do not automatically draw all of them together
+- select the primary metric that best answers the question
+- move the rest into supporting facts, summary text, or separate visuals
+- use multi-series charts only when the comparison itself is the point
 
 ## Safety wording rule
 

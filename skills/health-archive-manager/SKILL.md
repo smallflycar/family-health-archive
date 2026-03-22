@@ -1,6 +1,6 @@
 ---
 name: health-archive-manager
-description: 将家庭医疗文件归档到共享的本地 SQLite 健康档案中。适用于初始化档案目录、创建成员档案、匹配上传文件所属成员、检查上传质量、拦截重复、写入原始文件与结构化观察结果。
+description: Chinese-first OpenClaw skill for archiving family medical files into a shared local SQLite health archive.
 ---
 
 # Health Archive Manager
