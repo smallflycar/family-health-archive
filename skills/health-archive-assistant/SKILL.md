@@ -1,6 +1,8 @@
 ---
 name: health-archive-assistant
+displayName: 家庭健康助手
 description: 读取共享的本地健康档案，并生成分析、总结和图表数据。
+tags: 医疗, 健康档案, 家庭, 分析, 图表
 ---
 
 # Health Archive Assistant
