@@ -6,7 +6,7 @@ version: 1.0.1
 tags: 医疗, 健康档案, 家庭, 归档, 本地优先
 ---
 
-# Health Archive Manager
+# 家庭健康归档
 
 这是写入侧 skill，负责把医疗文件安全、保守地归档到本地健康档案。
 
